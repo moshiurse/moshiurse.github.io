@@ -2,7 +2,7 @@ name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
 
 jobs:
   deploy:
@@ -22,4 +22,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
-          keep_files: false  # This will clean old files
+          keep_files: false
