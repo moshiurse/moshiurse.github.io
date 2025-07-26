@@ -5,10 +5,9 @@ import { SiLeetcode } from "react-icons/si";
 import { 
   SiJavascript, SiTypescript, SiReact, SiAngular, SiNodedotjs, 
   SiExpress, SiNestjs, SiJest, SiWebpack, SiJquery, SiMongodb,
-  SiMysql, SiPostgresql, SiPhp, SiLaravel, SiGit, SiAmazonaws,
+  SiMysql, SiPostgresql, SiLaravel, SiGit, SiAmazonaws,
   SiDigitalocean, SiDocker, SiKubernetes, SiNginx, SiYarn,
-  SiMaterialdesign, SiTailwindcss, SiCodeigniter, SiCakephp,
-  SiNpm
+  SiMaterialdesign, SiTailwindcss
 } from 'react-icons/si';
 import Badge from "../components/Badge";
 

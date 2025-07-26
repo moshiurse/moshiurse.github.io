@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiTwitter, FiHeart } from 'react-icons/fi';
+import { FiHeart } from 'react-icons/fi';
 import { information } from '../config/info';
 
 const Footer = () => {

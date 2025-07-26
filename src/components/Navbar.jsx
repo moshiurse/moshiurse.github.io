@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FiHome, FiUser, FiBriefcase, FiFileText, FiMail } from 'react-icons/fi';
+import { FiHome, FiUser, FiBriefcase, FiMail } from 'react-icons/fi';
 import { AiOutlineExperiment } from 'react-icons/ai';
 
 const Navbar = () => {

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FiGithub, FiLinkedin, FiTwitter, FiDownload } from 'react-icons/fi';
+import { FiDownload } from 'react-icons/fi';
 import { information } from '../config/info';
 
 const Hero = () => {
@@ -44,7 +44,7 @@ const Hero = () => {
           <a href="#projects" className="border border-primary bg-primary px-6 py-3 rounded-full hover:bg-gray-100 hover:text-black transition">
             View My Work
           </a>
-          <a href={information.resume} target='_blank' className="border border-primary text-primary px-6 py-3 rounded-full hover:bg-gray-100 hover:text-black transition flex items-center">
+          <a href={information.resume} target='_blank' rel="noreferrer" className="border border-primary text-primary px-6 py-3 rounded-full hover:bg-gray-100 hover:text-black transition flex items-center">
             <FiDownload className="mr-2" /> Download CV
           </a>
         </motion.div>
@@ -58,6 +58,7 @@ const Hero = () => {
                   <a 
                     key={index}
                     target='_blank'
+                    rel="noreferrer"
                     href={profile.url}
                     className="text-gray-600 hover:text-primary text-xl transition"
                   >

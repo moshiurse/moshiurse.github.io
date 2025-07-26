@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import { FiDownload } from 'react-icons/fi';
 import { information } from '../config/info';
 
 const Experiences = () => {
