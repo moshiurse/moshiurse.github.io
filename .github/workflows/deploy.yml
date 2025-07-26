@@ -1,4 +1,4 @@
-name: Deploy portfolio to GitHub Pages
+name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
@@ -8,5 +8,18 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - run: npm install && npm run build && npm run deploy
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Build project
+        run: npm run build
+        
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          keep_files: false  # This will clean old files
