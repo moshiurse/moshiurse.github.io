@@ -5,7 +5,7 @@ import { SiLeetcode } from "react-icons/si";
 import { 
   SiJavascript, SiTypescript, SiReact, SiAngular, SiNodedotjs, 
   SiExpress, SiNestjs, SiJest, SiWebpack, SiJquery, SiMongodb,
-  SiMysql, SiPostgresql, SiLaravel, SiGit, SiAmazonaws,
+  SiMysql, SiPostgresql, SiLaravel, SiGit,
   SiDigitalocean, SiDocker, SiKubernetes, SiNginx, SiYarn,
   SiMaterialdesign, SiTailwindcss
 } from 'react-icons/si';
