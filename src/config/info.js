@@ -1,19 +1,23 @@
-import { BsStackOverflow } from "react-icons/bs";
+import { BsDatabase, BsStackOverflow } from "react-icons/bs";
 import { DiAws, DiCodepen } from "react-icons/di";
 import { FiGithub, FiLinkedin, FiTwitter } from "react-icons/fi";
-import { SiLeetcode } from "react-icons/si";
 import { 
   SiJavascript, SiTypescript, SiReact, SiAngular, SiNodedotjs, 
   SiExpress, SiNestjs, SiJest, SiWebpack, SiJquery, SiMongodb,
   SiMysql, SiPostgresql, SiLaravel, SiGit,
   SiDigitalocean, SiDocker, SiKubernetes, SiNginx, SiYarn,
-  SiMaterialdesign, SiTailwindcss
+  SiMaterialdesign, SiTailwindcss, SiCakephp, SiCodeigniter, SiFramework, 
+  SiLeetcode, SiLinux, SiLinuxserver, SiNpm, SiPhp, SiServerfault,
+  SiAdonisjs
 } from 'react-icons/si';
 import Badge from "../components/Badge";
+import { BiCloud, BiPackage } from "react-icons/bi";
+import { VscVersions } from "react-icons/vsc";
 
 export const iconMap = {
     'Javascript': <SiJavascript className="mr-1 text-yellow-500" />,
     'ES6': <SiJavascript className="mr-1 text-yellow-500" />,
+    'Adonis.js': <SiAdonisjs className="mr-1 text-yellow-500" />,
     'Angular': <SiAngular className="mr-1 text-red-500" />,
     'React': <SiReact className="mr-1" />,
     'Node.js': <SiNodedotjs className="mr-1" />,
@@ -24,9 +28,15 @@ export const iconMap = {
     'Webpack': <SiWebpack className="mr-1" />,
     'jQuery': <SiJquery className="mr-1" />,
     'MongoDB': <SiMongodb className="mr-1" />,
+    'KendoUI': <SiJavascript className="mr-1" name="KendoUI" />,
     'MySQL': <SiMysql className="mr-1" />,
     'PostgreSQL': <SiPostgresql className="mr-1" />,
     'Laravel': <SiLaravel className="mr-1" />,
+    'CodeIgniter': <SiCodeigniter className="mr-1" />,
+    'CakePHP': <SiCakephp className="mr-1" />,
+    'Slim': <SiCakephp className="mr-1" />,
+    'Linux': <SiLinux className="mr-1" />,
+    'Server Setup': <SiLinuxserver className="mr-1" />,
     'Git': <SiGit className="mr-1" />,
     'AWS (EC2 + S3)': <DiAws className="mr-1" />,
     'DigitalOcean': <SiDigitalocean className="mr-1" />,
@@ -34,8 +44,16 @@ export const iconMap = {
     'Kubernetes (Basic)': <SiKubernetes className="mr-1" />,
     'Nginx (Basic)': <SiNginx className="mr-1" />,
     'Yarn': <SiYarn className="mr-1" />,
+    'Npm': <SiNpm className="mr-1" />,
     'Material UI': <SiMaterialdesign className="mr-1" />,
-    'Tailwind CSS': <SiTailwindcss className="mr-1" />
+    'Tailwind CSS': <SiTailwindcss className="mr-1" />,
+    'Package Manager': <BiPackage className="mr-1" />,
+    'Database': <BsDatabase className="mr-1" />,
+    'PHP': <SiPhp className="mr-1" />,
+    'Version Control': <VscVersions className="mr-1" />,
+    'Cloud': <BiCloud className="mr-1" />,
+    'DevOps': <SiServerfault className="mr-1" />,
+    'UI Frameworks': <SiFramework className="mr-1" />,
 };
 
 

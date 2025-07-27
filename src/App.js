@@ -6,8 +6,13 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Experiences from './components/Experiences';
+import { useEffect } from 'react';
 
 const App = () => {
+
+  useEffect(() => {
+    document.title = 'A.H. Mosiur Rahman | Portfolio';
+  }, [])
   return (
     <div className="font-sans bg-gray-50 text-gray-800">
       <Navbar />

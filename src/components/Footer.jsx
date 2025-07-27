@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex space-x-6 mb-6 md:mb-0">
             {
                 information?.profiles?.map((social, index) => (
-                    <a key={index} href={social.link} className="text-gray-400 hover:text-white transition">
+                    <a key={index} href={social.url} target='_blank' rel='noreferrer' className="text-gray-400 cursor-pointer hover:text-white transition">
                         {<social.icon />}
                     </a>
                 ))

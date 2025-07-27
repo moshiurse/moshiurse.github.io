@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiHome, FiUser, FiBriefcase, FiMail } from 'react-icons/fi';
 import { AiOutlineExperiment } from 'react-icons/ai';
+import { information } from '../config/info';
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -58,7 +59,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            Your<span className="text-primary">Name</span>
+            <span className="text-primary">{information.name}</span>
           </motion.div>
           
           <ul className="flex space-x-1 md:space-x-6">
