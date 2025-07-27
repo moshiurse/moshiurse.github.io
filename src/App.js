@@ -11,7 +11,7 @@ import { useEffect } from 'react';
 const App = () => {
 
   useEffect(() => {
-    document.title = 'A.H. Mosiur Rahman | Portfolio';
+    document.title = 'A.H.M Mosiur Rahaman | Portfolio';
   }, [])
   return (
     <div className="font-sans bg-gray-50 text-gray-800">
